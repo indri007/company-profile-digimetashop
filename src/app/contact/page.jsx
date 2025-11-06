@@ -1,3 +1,9 @@
+export const metadata = {
+  title: 'Digimetashop - Hubungi Kami',
+  description: 'Digimetashop — Toko buku online, request buku, koleksi eksklusif >5000 judul'
+}
+
+
 export default function Contact() {
   return (
     <section className="py-16">

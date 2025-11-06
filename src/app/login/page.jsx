@@ -2,6 +2,11 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
+export const metadata = {
+  title: 'Digimetashop - Login',
+  description: 'Digimetashop — Toko buku online, request buku, koleksi eksklusif >5000 judul'
+}
+
 export default function Login() {
   const router = useRouter()
   const [user, setUser] = useState('')

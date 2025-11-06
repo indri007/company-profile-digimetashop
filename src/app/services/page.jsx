@@ -1,5 +1,10 @@
 import ServiceCard from '../../components/ServiceCard'
 
+export const metadata = {
+  title: 'Digimetashop - Services',
+  description: 'Digimetashop — Toko buku online, request buku, koleksi eksklusif >5000 judul'
+}
+
 export default function Services() {
   return (
     <section className="py-16">

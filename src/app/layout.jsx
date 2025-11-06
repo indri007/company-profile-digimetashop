@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 export const metadata = {
-  title: 'digimetashop - Toko Buku Online',
+  title: 'Digimetashop - Toko Buku Online',
   description: 'Digimetashop — Toko buku online, request buku, koleksi eksklusif >5000 judul'
 }
 

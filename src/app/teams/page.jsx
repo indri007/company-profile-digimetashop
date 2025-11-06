@@ -1,5 +1,10 @@
 import TeamCard from '../../components/TeamCard'
 
+export const metadata = {
+  title: 'Digimetashop - Our Teams',
+  description: 'Digimetashop — Toko buku online, request buku, koleksi eksklusif >5000 judul'
+}
+
 async function fetchPeople() {
   try {
     const res = await fetch('https://randomuser.me/api/?results=6', { next: { revalidate: 60 } })

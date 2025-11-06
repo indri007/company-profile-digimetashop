@@ -1,7 +1,15 @@
 import Link from 'next/link'
+import Head from "next/head";
+
+
+export const metadata = {
+  title: 'Digimetashop - Tentang Kami',
+  description: 'Digimetashop — Toko buku online, request buku, koleksi eksklusif >5000 judul'
+}
 
 export default function About() {
   return (
+    <>
     <section className="py-16">
       <div className="max-w-4xl mx-auto px-6">
         <h1 className="text-3xl font-bold mb-4">Tentang Digimetashop</h1>
@@ -36,5 +44,7 @@ export default function About() {
 </section>
       </div>
     </section>
+    </>
+    
   )
 }
